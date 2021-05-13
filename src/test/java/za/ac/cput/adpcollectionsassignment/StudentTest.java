@@ -2,6 +2,9 @@ package za.ac.cput.adpcollectionsassignment;
 
 /**
  *
+ *  IGNORE THIS FILE FOR ADP ASSIGNMENT
+ *
+ *
  *  Tests the Java Collections interface, List interface, Set interface and Map interface using JUnit 5.
  *  @author Dylan Koevort 218088159
  */
