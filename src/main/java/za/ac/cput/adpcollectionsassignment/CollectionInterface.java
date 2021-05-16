@@ -42,4 +42,8 @@ public class CollectionInterface {
 
         return studentCollection;
     }
+
+    public boolean collectionFind(){
+        return studentCollection.contains(s1);
+    }
 }

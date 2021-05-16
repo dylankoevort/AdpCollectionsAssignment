@@ -42,4 +42,8 @@ public class MapInterface {
         return studentMap;
     }
 
+    public boolean mapFind() {
+        return studentMap.containsValue(s1);
+    }
+
 }

@@ -22,12 +22,17 @@ class SetInterfaceTest {
     }
 
     @Test
-    void setAdd() {
+    void setAddTest() {
         assertEquals(6, se.setAdd().size());
     }
 
     @Test
-    void setRemove() {
+    void setRemoveTest() {
         assertEquals(3, se.setRemove().size());
+    }
+
+    @Test
+    void setFindTest() {
+        assertTrue(se.setFind());
     }
 }

@@ -43,4 +43,8 @@ public class SetInterface {
         return studentSet;
     }
 
+    public boolean setFind() {
+        return studentSet.contains(s1);
+    }
+
 }

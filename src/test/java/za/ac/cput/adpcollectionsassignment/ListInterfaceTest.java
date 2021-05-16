@@ -31,4 +31,9 @@ class ListInterfaceTest {
     void listRemoveTest() {
         assertEquals(3, le.listRemove().size());
     }
+
+    @Test
+    void listFindTest() {
+        assertTrue(le.listFind());
+    }
 }

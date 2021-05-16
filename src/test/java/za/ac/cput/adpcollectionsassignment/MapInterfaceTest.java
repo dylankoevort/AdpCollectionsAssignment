@@ -30,4 +30,9 @@ class MapInterfaceTest {
     void mapRemoveTest() {
         assertEquals(3, me.mapRemove().size());
     }
+
+    @Test
+    void mapFindTest() {
+        assertTrue(me.mapFind());
+    }
 }

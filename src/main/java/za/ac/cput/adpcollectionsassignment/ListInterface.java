@@ -42,4 +42,8 @@ public class ListInterface {
 
         return studentList;
     }
+
+    public boolean listFind(){
+        return studentList.contains(s1);
+    }
 }

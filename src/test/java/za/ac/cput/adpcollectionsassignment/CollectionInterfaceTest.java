@@ -30,4 +30,9 @@ class CollectionInterfaceTest {
     void collectionRemoveTest() {
         assertEquals(3, ce.collectionRemove().size());
     }
+
+    @Test
+    void collectionFindTest() {
+        assertTrue(ce.collectionFind());
+    }
 }
